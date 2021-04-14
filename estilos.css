@@ -1,0 +1,43 @@
+/* TIPOGRAFÍA */
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* COLORES */
+body {
+    background-color: #ff0000;
+}
+h5 {
+    font-size: 75px;
+}
+
+/* MARGENES Y POSICIONES */
+body {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+header {
+    display: flex;
+    /* alineación vertical */
+    align-items:center;
+}
+.simboloLlave {
+    font-size: 105px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+ul h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
