@@ -9,8 +9,10 @@ html {
 body {
     background-color: #ff0000;
 }
-h5 {
+section h5 {
     font-size: 75px;
+    line-height: 54px;
+    height: 65px;
 }
 
 /* MARGENES Y POSICIONES */
@@ -19,12 +21,18 @@ body {
     padding-left: 25px;
 }
 header {
+    width: 50vw;
     display: flex;
+    justify-content: space-between;
     /* alineación vertical */
     align-items:center;
+    margin-bottom: 50px;
 }
 .simboloLlave {
-    font-size: 105px;
+    font-size: 80px;
+    line-height: 50px;
+    height: 65px;
+    font-weight: 400;
 }
 
 /* FOOTER */
